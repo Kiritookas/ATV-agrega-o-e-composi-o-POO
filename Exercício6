@@ -1,0 +1,38 @@
+class Professor {
+    String nome;
+
+    Professor(String nome) {
+        this.nome = nome;
+    }
+}
+
+class Turma {
+    String codigo;
+    Professor professor; // relação de agregação
+
+    Turma(String codigo) {
+        this.codigo = codigo;
+    }
+
+    void setProfessor(Professor p) {
+        this.professor = p;
+    }
+
+    void resumo() {
+        System.out.println("Turma: " + codigo + " | Professor: " + (professor != null ? professor.nome : "Nenhum"));
+    }
+}
+
+public class Principal {
+    public static void main(String[] args) {
+        Professor prof1 = new Professor("Carlos");
+        Turma turma = new Turma("POO-101");
+
+        turma.setProfessor(prof1);
+        turma.resumo();
+
+        Professor prof2 = new Professor("Mariana");
+        turma.setProfessor(prof2);
+        turma.resumo();
+    }
+}
