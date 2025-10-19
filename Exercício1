@@ -1,1 +1,10 @@
 
+1) Agregação e Composição
+
+→ Agregação (relação fraca - o objeto pode existir sem o outro):
+   Exemplo 1: Professor e Turma (um professor pode existir sem a turma)
+   Exemplo 2: Aluno e Curso (um aluno pode existir sem o curso)
+
+→ Composição (relação forte - o objeto depende do outro para existir):
+   Exemplo 3: Coração e Corpo (um coração não existe sem o corpo)
+   Exemplo 4: Janela e Casa (a janela é destruída quando a casa é destruída)
