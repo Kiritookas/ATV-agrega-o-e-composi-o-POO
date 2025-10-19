@@ -1,0 +1,8 @@
+
+2) Classe ou atributo final:
+
+→ Se uma classe for "final": 
+   Ela não pode ser herdada (não é possível criar subclasses).
+
+→ Se um atributo for "final":
+   Ele não pode ser modificado depois de inicializado (torna-se uma constante).
