@@ -1,0 +1,8 @@
+
+3) Vantagem de um método estático:
+
+→ Pode ser chamado sem precisar criar um objeto da classe.
+   Ideal para funções utilitárias, como cálculos, conversões, etc.
+
+Exemplo:
+   Math.sqrt(9)  // chama o método estático sqrt() da classe Math
