@@ -1,0 +1,4 @@
+
+4) Dois métodos da classe Object além de toString() e equals():
+   - clone(): cria uma cópia exata de um objeto.
+   - finalize(): executado antes do objeto ser removido da memória pelo Garbage Collector.
